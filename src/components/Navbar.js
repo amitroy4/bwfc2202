@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Container from '../layout/Container'
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+   <Container>
+    Navbar
+   </Container>
   )
 }
 
