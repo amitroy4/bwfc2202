@@ -2,7 +2,13 @@ import React from 'react'
 
 const Sponsor = () => {
   return (
-    <div>Sponsor</div>
+    <>
+     <div>Sponsor</div>
+    <div>
+    hgdsfhgsdjfjsd
+    </div>
+    </>
+   
   )
 }
 
