@@ -14,8 +14,12 @@ module.exports = {
       colors: {
         'primary': '#3734A9',
       },
+      dropShadow: {
+        'paybtn': '0 20px 19px rgba(255, 127, 92, 0.2)',
+        'accbtn': '0 20px 19px rgba(55, 52, 169, 0.2)',
+
     },
   },
   plugins: [],
 }
-
+}
