@@ -10,7 +10,7 @@ const Account = () => {
 
   useEffect(() => {
 
-    async function account(){
+    async function account() {
       const account = await axios.get('https://bwfc-api.vercel.app/account')
       setAccountinfo(account.data)
       setLoad(false)
@@ -19,7 +19,7 @@ const Account = () => {
 
   }, []);
 
-  if(load){
+  if (load) {
     return <h1>Loading.....</h1>
   }
 
@@ -35,7 +35,7 @@ const Account = () => {
             <a href={accountinfo.button.link} className='inline-block text-center mt-7 w-[162px] rounded-lg bg-primary text-white py-[14px] font-bold text-base leading-[30px] border border-primary hover:bg-white hover:text-primary duration-300 drop-shadow-accbtn'>{accountinfo.button.text}</a>
           </div>
           <div className='w-[590px]'>
-            <img className='w-full' src={accountinfo.accountImage}/>
+            <img className='w-full' src={accountinfo.accountImage} />
           </div>
         </div>
       </Container>
