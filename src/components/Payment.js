@@ -25,7 +25,10 @@ const Payment = () => {
   return (
     <section className='mt-9 mb-[100px] font-manrope'>
       <Container>
-        <div className=' pt-[75px] pr-28 pl-[70px] pb-[71px] bg-[#F3F7FA] rounded-[20px] flex flex-wrap justify-between'>
+        <div className=' relative pt-[75px] pr-28 pl-[70px] pb-[71px] bg-[#F3F7FA] rounded-[20px] flex flex-wrap justify-between'>
+          <div className='absolute right-0 -top-[17px]'>
+            <img src={payment.paymentShape}/>
+          </div>
           <div>
             <h4 className='font-extrabold text-lg text-primary mb-6'>{payment.subTitle}</h4>
             <h2 className='font-bold text-[50px] leading-[56px] text-black w-[560px] mb-9'>{payment.title}</h2>
