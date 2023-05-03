@@ -13,6 +13,7 @@ module.exports = {
       },
       colors: {
         'primary': '#3734A9',
+        'secondary': '#F3F7FA',
       },
       dropShadow: {
         'paybtn': '0 20px 19px rgba(255, 127, 92, 0.2)',
