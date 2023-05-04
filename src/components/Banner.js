@@ -28,13 +28,13 @@ const Banner = () => {
       <div style={{ backgroundImage: `url(${BannerData.bannerbgshape}` }} className='w-full mt-[78px]'>
         <Container>
           <div className='flex justify-between'>
-            <div className='w-[50%]'>
-              <h1 className='font-manrope w-[646px] font-extrabold text-[60px] mt-[96px]'>{BannerData.bannerheading}</h1>
-              <p className='font-manrope w-[465px] font-regular text-[20px]'>{BannerData.bannerparagraph}</p>
+            <div className='w-[45%]'>
+              <h1 className='font-manrope w-[646px] font-extrabold text-[60px] mt-[96px] leading-[80px] mb-[22px]'>{BannerData.bannerheading}</h1>
+              <p className='font-manrope w-[465px] font-regular text-[20px] pb-[26px]'>{BannerData.bannerparagraph}</p>
               <a href='#' className='inline-block text-center w-[162px] duration-300 bg-primary font-manrope font-bold text-base leading-[30px] border  border-primary text-white rounded-[50px] pt-4 pb-[14px] hover:bg-white hover:border-primary hover:text-primary hover:border drop-shadow-paybtn'>{BannerData.bannerButton.text}</a>
-              <p className='inline-block text-center w-[210px] duration-300 font-manrope font-bold text-base leading-[30px]  text-primary pt-4 pb-[14px] ml-[50px]'><AiFillPlayCircle className='w-[60px] h-[60px] text-[#22D497] inline-block mr-[11px]' />{BannerData.video.text}</p>
+              <p className='inline-block text-center w-[210px] duration-300 font-manrope font-bold text-base leading-[30px]  text-primary pt-4 pb-[14px] ml-[50px]'><button><AiFillPlayCircle className='w-[60px] h-[60px] text-[#22D497] inline-block mr-[11px]'/></button>{BannerData.video.text}</p>
             </div>
-            <div className='w-[50%]'>
+            <div className='w-[55%]'>
               <picture>
                 <img className='w-full' src={BannerData.bannerrightimg} />
               </picture>
