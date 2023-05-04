@@ -4,7 +4,7 @@ import Container from '../layout/Container'
 const Track = () => {
   return (
     <div>
-      <section>
+      <section className='mt-[100px]'>
         <Container>
           <div className='flex w-full justify-between pt-[91px] pb-[58px] pl-[124px] pr-[210px] bg-[#3734A9] '>
             <div className='' >
