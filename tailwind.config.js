@@ -18,6 +18,7 @@ module.exports = {
       dropShadow: {
         'paybtn': '0 20px 19px rgba(255, 127, 92, 0.2)',
         'accbtn': '0 20px 19px rgba(55, 52, 169, 0.2)',
+        'res': '0 24px 34px rgba(0, 0, 0, 0.03)',
 
     },
   },
