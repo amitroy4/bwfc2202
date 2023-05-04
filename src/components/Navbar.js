@@ -33,7 +33,7 @@ const Navbar = () => {
 
             <ul className='w-2/5 flex justify-center gap-x-7 '>
                 {navinfo.navItems.map(nitem=>(
-                    <li className='group'><a className='text-sm font-normal font-man inline-block group-hover:text-primary transition duration-300 ease-in-out flex gap-x-1.5' href="#">{nitem.item}
+                    <li className='group'><a className='text-sm font-normal font-man group-hover:text-primary transition duration-300 ease-in-out flex gap-x-1.5' href="#">{nitem.item}
                     { nitem.dropDown && <FaAngleDown className='group-hover:rotate-180 transition duration-300 ease-in-out'/>}</a>
                         <ul className='absolute hidden group-hover:block'>
                             { nitem.dropDown && nitem.dropDownItem.map(ditem=>(
