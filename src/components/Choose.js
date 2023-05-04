@@ -32,7 +32,7 @@ const Choose = () => {
                 <h3 className='font-extrabold text-[24px]'>{citems.title}</h3>
                 <p className='font-normal text-[18px] pt-[22px]'>{citems.details}</p>
 
-                <div style={{backgroundColor: true ?  citems.circleColor: ' '}} className={`h-[58px] w-[58px] rounded-full  absolute top-[59px] left-[30px]`} ></div>
+                <div style={{backgroundColor:citems.circleColor}} className={`h-[58px] w-[58px] rounded-full  absolute top-[59px] left-[30px]`} ></div>
               </div>
 
             ))}
