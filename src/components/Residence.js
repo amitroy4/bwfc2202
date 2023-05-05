@@ -23,7 +23,7 @@ const Residence = () => {
 
 
   return (
-    <section className='mb-[100px] mt-[63px] font-manrope '>
+    <section className='mb-[100px] mt-[10px] font-manrope '>
       <Container>
         <div className='w-full drop-shadow-res'>
           <div className='pt-[36px] pr-[34px] pb-[30px] pl-[28px] rounded-[15px] border border-[#DEE1E6} flex justify-between items-center'>
