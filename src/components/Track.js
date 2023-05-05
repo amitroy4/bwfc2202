@@ -16,7 +16,7 @@ const Track = () => {
             <form className='ml-auto' >
               <input className=' w-[371px] h-[60px] bg-[#5C5AB8] rounded-md mt-[35px] pl-[21px] placeholder:text-manrope placeholder:text-[#BBB5E0]' type='email' placeholder="Email Address"></input>
               <input className='placeholder:text-manrope placeholder:text-[#BBB5E0] w-[371px] h-[60px] bg-[#5C5AB8] rounded-md mt-[24px] mb-[24px] pl-[21px]' type='password' placeholder="Password "></input>
-              <button className='w-[371px] h-[60px] font-manrope text-white bg-[#FF7F5C] rounded-md uppercase'>Get Started</button>
+              <button className='w-[371px] h-[60px] font-manrope text-white bg-[#FF7F5C] rounded-md uppercase hover:text-[#FFFF] transition duration-300 ease-in-out border border-primary hover:bg-transparent hover:border-[#FF7F5C]' href='#'>Get Started</button>
             </form>
             </div>
           </div>
